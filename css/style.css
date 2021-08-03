@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background-color: brown;
+}
+
+.navbar-customclass {
+  background-color: brown;
+  color: white;
+}
+
+.btn-buy {
+  background-color: rgb(119, 59, 59);
+  color: white;
+}
+
+.btn-download {
+  color: brown;
+  background-color: white;
+}
+
+.features-amazing {
+  background-color: #dbd5d5;
+}
+.features-amazing__header h2 {
+  color: brown;
+}
+
+.btn-getstarted {
+  background-color: brown;
+  color: white;
+}
+
+.whatnew-div h3 {
+  color: brown;
+}
+
+.whatnew-div ul li::before {
+  content: "\2022";
+  color: brown;
+  font-weight: bold;
+  display: inline-block;
+  width: 2em;
+  margin-left: -1em;
+}
+
+.image-div {
+  background-color: brown;
+}
+
+.pricing {
+  background-color: rgb(219, 213, 213);
+}
+
+.pricing-cards span {
+  display: block;
+}
+
+.pricing h2 {
+  color: brown;
+}
+
+.pricing-cards .btn-order {
+  border-radius: 35px;
+  background-color: brown;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card-text .huge {
+  color: brown;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.app-download h2 {
+  color: brown;
+}
+
+.team h2 {
+  color: brown;
+}
+.member img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.blog h2 {
+  color: brown;
+}
+
+.blog .card .btn {
+  color: brown;
+}
+.contacts {
+  background-color: brown;
+  color: white;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer h2 {
+  color: #f1f3f0;
+}
+@media only screen and (max-width: 678px) {
+  .btn-buy,
+  .btn-download {
+    font-size: 0.8em;
+  }
+}
